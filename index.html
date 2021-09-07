@@ -1,45 +1,178 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Title</title>
+    <title>Infarcts</title>
     <meta charset="utf-8" />
     <meta name="author" content="John Colby, MD, PhD" />
+    <script src="index_files/header-attrs-2.10/header-attrs.js"></script>
     <link href="index_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="index_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script src="index_files/xaringanExtra-logo-0.0.14/logo.js"></script>
+    <script src="index_files/xaringanExtra-webcam-0.0.1/webcam.js"></script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
+    <script src="index_files/xaringanExtra-progressBar-0.0.1/progress-bar.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Title
+# Infarcts
+## 🧠
 ### John Colby, MD, PhD
-### UCSF
-### Updated: June 01, 2020
+### MarinHealth
+### Updated: September 06, 2021
 
 ---
 
-# Headline
+# More info
 
-<style type="text/css">
-.xaringan-extra-logo {
-  width: 110px;
-  height: 128px;
-  z-index: 0;
-  background-image: url('img/logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  right:1em;bottom:-1.5em;
+- Slides: [johncolby.github.io/infarcts](https://johncolby.github.io/infarcts)
+- Repo: [github.com/johncolby/infarcts](https://github.com/johncolby/infarcts)
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(img/logo.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+right:1em;bottom:-3.5em;
 }
 </style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('a')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = 'https://www.mymarinhealth.org'
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+<style>.xe__progress-bar__container {
+  bottom:0;
+  opacity: 1;
+  position:absolute;
+  right:0;
+  left: 0;
+}
+.xe__progress-bar {
+  height: 5px;
+  background-color: #00994E;
+  width: calc(var(--slide-current) / var(--slide-total) * 100%);
+}
+.remark-visible .xe__progress-bar {
+  animation: xe__progress-bar__wipe 200ms forwards;
+  animation-timing-function: cubic-bezier(.86,0,.07,1);
+}
+@keyframes xe__progress-bar__wipe {
+  0% { width: calc(var(--slide-previous) / var(--slide-total) * 100%); }
+  100% { width: calc(var(--slide-current) / var(--slide-total) * 100%); }
+}</style>
+
+---
+class: center, middle, inverse
+# Border zone vs. embolic infarcts
+
+---
+# Border zone vs. embolic infarcts
+
+.pull-right[.middle-img[
+[
+&lt;img src="img/mangla_radiographics_2011.png" width="100%" /&gt;
+](https://doi.org/10.1148/rg.315105014)
+]]
+
+---
+# Vascular territories
+
+[
+![](img/territories.png)&lt;!-- --&gt;
+](https://radiologyassistant.nl/neuroradiology/brain-ischemia/vascular-territories#cerebral-arterial-territory)
+
+---
+# Border zones
+
+.pull-left[.middle-img[
+[
+![](img/border_zone.png)&lt;!-- --&gt;
+](https://radiologyassistant.nl/neuroradiology/brain-ischemia/vascular-territories)
+]]
+
+.pull-right[.middle-img[
+[
+![](img/border_zone_2.jpg)&lt;!-- --&gt;
+](https://doi.org/10.1148/rg.315105014)
+]]
+
+---
+![:rad 2626, 6330]
+
+---
+![:rad 27611, 27823]
+
+---
+![:rad 49837, 55108]
+
+---
+class: center, middle, inverse
+# Dating infarcts on MRI
+
+---
+# Dating infarcts on MRI
+
+.pull-left[
+- Early hyperacute (0–6 hours): ↑DWI, ↓ADC, T1 and FLAIR iso.
+- Late hyperacute (6–24 hours): ↓T1, ↑FLAIR.
+- Acute (1–7 days): Not well defined from late hyperacute.  
+- Subacute (1–3 weeks): ADC *pseudo*normalization ~7 days, DWI takes longer.
+- Chronic: ↑ADC, ↑T2, ↓FLAIR (cystic).
+]
+
+.pull-right[.middle-img[
+[
+&lt;img src="img/allen_radiographics_2012.png" width="100%" /&gt;
+](https://doi.org/10.1148/rg.325115760)
+]]
+
+---
+.whole-block[].vmiddle[
+[
+&lt;img src="img/timing_table_1.jpg" width="50%" /&gt;&lt;img src="img/timing_table_2.jpg" width="50%" /&gt;
+](https://doi.org/10.1148/rg.325115760)
+]
+
+---
+.center[
+[
+![](img/timing.jpg)&lt;!-- --&gt;
+](https://radiologyassistant.nl/neuroradiology/brain-ischemia/imaging-in-acute-stroke)
+]
+
+---
+![:rad 34695, 36125]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
 <script>var slideshow = remark.create({
 "countIncrementalSlides": false,
-"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(calc(%current% - 1) / calc(%total% - 1) * 100%);\">   </div> </div> ",
 "ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
