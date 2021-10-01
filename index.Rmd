@@ -32,7 +32,7 @@ xaringanExtra::use_progress_bar(color = "#00994E", height="5px", location = "bot
 ```
 
 ---
-class: center, middle, inverse
+class: center, middle
 # Border zone vs. embolic infarcts
 
 ---
@@ -84,7 +84,7 @@ knitr::include_graphics('img/border_zone_2.jpg')
 ![:rad 49837, 55108]
 
 ---
-class: center, middle, inverse
+class: center, middle
 # Dating infarcts on MRI
 
 ---
