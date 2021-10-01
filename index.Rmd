@@ -11,6 +11,10 @@ date: "Updated: `r format(Sys.time(), '%B %d, %Y')`"
 - Slides: [johncolby.github.io/infarcts](https://johncolby.github.io/infarcts)
 - Repo: [github.com/johncolby/infarcts](https://github.com/johncolby/infarcts)
 
+.center[
+![](https://api.qrserver.com/v1/create-qr-code/?data=https://johncolby.github.io/infarcts)
+]
+
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
   image_url = "img/logo.png",
